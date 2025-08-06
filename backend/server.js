@@ -25,7 +25,7 @@ app.post('/webhook-razorpay', express.raw({ type: 'application/json' }), webhook
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://forever-frontend-oz5k.onrender.com'],
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://forever-frontend-oz5k.onrender.com', 'https://forever-le8z.onrender.com'],
     credentials: true
   })
 );
