@@ -8,7 +8,6 @@ import productRouter from './routes/productRoutes.js';
 import cartRouter from './routes/cartRoutes.js';
 import cookieParser from 'cookie-parser';
 import orderRouter from './routes/orderRoutes.js';
-import userAuth from './middlewares/userAuth.js';
 import { webhookRazorpay, webhookStripe } from './controllers/orderController.js';
 
 // App Configuration
